@@ -28,6 +28,8 @@ print_info('--------------------------------------------------------------------
            '|                       M2Det Training Program                       |\n'
            '----------------------------------------------------------------------',['yellow','bold'])
 
+
+
 logger = set_logger(args.tensorboard)
 global cfg
 cfg = Config.fromfile(args.config)
